@@ -1,0 +1,17 @@
+# 统一换行符，避免 Windows / macOS 协作时产生无意义的 diff
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.jar binary
+*.keystore binary
+*.jks binary
+*.apk binary
+
+package-lock.json text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf

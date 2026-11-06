@@ -1,0 +1,9 @@
+{
+  "name": "TrailLens",
+  "description": "An AI-powered outdoor tracking application that visualizes your path, analyzes safety, and automatically generates vlogs of your journey.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
